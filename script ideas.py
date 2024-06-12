@@ -2,7 +2,7 @@ import random
 
 print('LOOK IT UP HAMILTON WAS WEARING HIS GLASSES')
 
-bullet = input('HOW MANY BULLETS ARE YOU LOADING UP!! ')
+bullet = int(input('HOW MANY BULLETS ARE YOU LOADING UP!! '))
 dead = 10
 while bullet > 0:
     shot = random.randint(1, 5)
